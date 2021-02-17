@@ -1,5 +1,7 @@
 # running schedule
 
+[github pages](https://douggrubba.github.io/running/)
+
 This is a running schedule so I know what I need to do for a given day. Trying to get back into shape!
 
 ## install
