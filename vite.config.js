@@ -1,6 +1,8 @@
-import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-export default defineConfig({
+const publicPath = process.env.NODE_ENV === 'production' ? '/running/' : '/'
+
+export default {
+  base: publicPath,
   plugins: [vue()]
-})
+}
